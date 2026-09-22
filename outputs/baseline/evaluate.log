@@ -1,0 +1,12 @@
+best.pt from epoch 29 (val acc 90.76%)
+test accuracy 89.88%, test loss 0.3045
+  airplane   91.60%
+  automobile 96.20%
+  bird       85.70%
+  cat        79.50%
+  deer       90.30%
+  dog        83.80%
+  frog       93.00%
+  horse      91.40%
+  ship       94.10%
+  truck      93.20%

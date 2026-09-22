@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+data/
+# Checkpoints are large; metrics and figures under outputs/ are committed.
+outputs/**/*.pt
+outputs/**/*.onnx
+outputs/**/*.onnx.data
+# Dataset archives, wherever they are placed
+*.tar
+*.tar.gz

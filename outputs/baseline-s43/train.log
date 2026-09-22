@@ -1,0 +1,31 @@
+model=baseline params=288,746 device=mps train=45000 val=5000
+epoch   1/30 | lr 0.0040 | train loss 1.5239 acc 0.4391 | val loss 1.3346 acc 0.5120 | 32.0s *
+epoch   2/30 | lr 0.0069 | train loss 1.1190 acc 0.5998 | val loss 1.4759 acc 0.5152 | 16.2s *
+epoch   3/30 | lr 0.0152 | train loss 0.9667 acc 0.6567 | val loss 0.9974 acc 0.6472 | 16.8s *
+epoch   4/30 | lr 0.0280 | train loss 0.8520 acc 0.7000 | val loss 0.9671 acc 0.6668 | 17.5s *
+epoch   5/30 | lr 0.0437 | train loss 0.7585 acc 0.7354 | val loss 0.8870 acc 0.7018 | 17.6s *
+epoch   6/30 | lr 0.0604 | train loss 0.6939 acc 0.7596 | val loss 0.7800 acc 0.7364 | 19.0s *
+epoch   7/30 | lr 0.0760 | train loss 0.6491 acc 0.7777 | val loss 0.8783 acc 0.7222 | 20.4s
+epoch   8/30 | lr 0.0888 | train loss 0.6161 acc 0.7893 | val loss 0.6695 acc 0.7666 | 22.1s *
+epoch   9/30 | lr 0.0971 | train loss 0.5837 acc 0.8030 | val loss 0.5811 acc 0.7982 | 22.3s *
+epoch  10/30 | lr 0.1000 | train loss 0.5573 acc 0.8093 | val loss 0.7197 acc 0.7680 | 22.5s
+epoch  11/30 | lr 0.0994 | train loss 0.5374 acc 0.8163 | val loss 0.6248 acc 0.7962 | 23.0s
+epoch  12/30 | lr 0.0978 | train loss 0.5270 acc 0.8192 | val loss 0.7620 acc 0.7432 | 23.0s
+epoch  13/30 | lr 0.0950 | train loss 0.5079 acc 0.8262 | val loss 0.5703 acc 0.8062 | 21.2s *
+epoch  14/30 | lr 0.0913 | train loss 0.4911 acc 0.8329 | val loss 0.5278 acc 0.8190 | 20.8s *
+epoch  15/30 | lr 0.0866 | train loss 0.4733 acc 0.8375 | val loss 0.4998 acc 0.8306 | 20.7s *
+epoch  16/30 | lr 0.0812 | train loss 0.4654 acc 0.8408 | val loss 0.6291 acc 0.7938 | 20.5s
+epoch  17/30 | lr 0.0750 | train loss 0.4497 acc 0.8474 | val loss 0.4483 acc 0.8440 | 20.3s *
+epoch  18/30 | lr 0.0682 | train loss 0.4421 acc 0.8484 | val loss 0.4205 acc 0.8578 | 20.9s *
+epoch  19/30 | lr 0.0611 | train loss 0.4257 acc 0.8565 | val loss 0.4591 acc 0.8458 | 20.6s
+epoch  20/30 | lr 0.0537 | train loss 0.4096 acc 0.8616 | val loss 0.4493 acc 0.8470 | 20.0s
+epoch  21/30 | lr 0.0462 | train loss 0.3945 acc 0.8661 | val loss 0.6662 acc 0.7942 | 21.0s
+epoch  22/30 | lr 0.0389 | train loss 0.3830 acc 0.8698 | val loss 0.3849 acc 0.8668 | 19.8s *
+epoch  23/30 | lr 0.0317 | train loss 0.3588 acc 0.8772 | val loss 0.4278 acc 0.8576 | 26.6s
+epoch  24/30 | lr 0.0250 | train loss 0.3383 acc 0.8868 | val loss 0.3594 acc 0.8744 | 20.9s *
+epoch  25/30 | lr 0.0188 | train loss 0.3131 acc 0.8933 | val loss 0.3491 acc 0.8846 | 20.3s *
+epoch  26/30 | lr 0.0133 | train loss 0.2876 acc 0.9019 | val loss 0.3339 acc 0.8890 | 20.1s *
+epoch  27/30 | lr 0.0087 | train loss 0.2560 acc 0.9131 | val loss 0.3082 acc 0.8988 | 19.7s *
+epoch  28/30 | lr 0.0049 | train loss 0.2314 acc 0.9223 | val loss 0.2861 acc 0.9030 | 19.7s *
+epoch  29/30 | lr 0.0022 | train loss 0.2129 acc 0.9278 | val loss 0.2859 acc 0.9054 | 19.7s *
+epoch  30/30 | lr 0.0006 | train loss 0.2029 acc 0.9318 | val loss 0.2825 acc 0.9068 | 19.7s *

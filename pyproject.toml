@@ -1,0 +1,10 @@
+[project]
+name = "cifar10"
+version = "0.1.0"
+description = "Small CNN and residual CNN trained from scratch on CIFAR-10"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

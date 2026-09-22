@@ -1,0 +1,6 @@
+| Run | Model | Parameters | Epochs | Best val acc | Test acc | Test loss | s/epoch |
+|---|---|---:|---:|---:|---:|---:|---:|
+| baseline-s43 | baseline | 288,746 | 30 | 90.68% | 89.91% | 0.3068 | 20.8 |
+| resnet-s43 | resnet | 299,530 | 30 | 90.88% | 89.98% | 0.3011 | 27.0 |
+
+done
