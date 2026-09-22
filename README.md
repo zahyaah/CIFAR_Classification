@@ -140,9 +140,9 @@ PyTorch does not guarantee bit-identical results across devices or releases, and
 
 ## Optional extensions
 
-- **Unit tests:** `python -m pytest` runs 51 tests in about 20 seconds without downloading CIFAR-10. They cover transforms, the split, loaders, model shapes and components, the residual shortcut, metrics, the training step, the scheduler stepping, checkpoint round-trips, resuming after a crash, plotting and ONNX parity.
+- **Unit tests:** `python -m pytest` runs 55 tests in about 20 seconds without downloading CIFAR-10. They cover transforms, the split, loaders, model shapes and components, the residual shortcut, metrics, the training step, the scheduler stepping, checkpoint round-trips, resuming after a crash, plotting and ONNX parity.
 - **ONNX:** `cifar10.export_onnx` exports with the `torch.export`-based exporter and a dynamic batch dimension, then compares ONNX Runtime logits with PyTorch on test images.
-- **Mixed precision:** `--amp` runs the forward pass under `torch.autocast` (float16 with `GradScaler` on CUDA, bfloat16 on CPU). PyTorch's AMP docs do not list MPS, so the flag does nothing there and the reported runs use float32.
+- **Mixed precision:** `--amp` runs the forward pass under `torch.autocast` (float16 with `GradScaler` on CUDA, bfloat16 on CPU). Checked by running a full epoch with `--device cpu --amp` (63.18% validation accuracy) and by four unit tests in `tests/test_amp.py`. PyTorch's AMP docs do not list MPS, so the flag falls back to float32 there and the reported M1 runs are float32. The CUDA path is written to the documented API but was not run, since this machine has no CUDA GPU.
 
 Distributed training and model serving are out of scope.
 
