@@ -12,3 +12,4 @@ outputs/**/*.onnx.data
 # Dataset archives, wherever they are placed
 *.tar
 *.tar.gz
+AI Engineer - CIFAR-10 Image Classification.md

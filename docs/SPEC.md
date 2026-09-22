@@ -1,6 +1,6 @@
 # Spec: CIFAR-10 Image Classification
 
-Source brief: [AI Engineer - CIFAR-10 Image Classification.md](../AI%20Engineer%20-%20CIFAR-10%20Image%20Classification.md)
+Source: the assignment brief (kept outside this repository).
 
 ## Objective
 
